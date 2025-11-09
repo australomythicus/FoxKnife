@@ -101,6 +101,5 @@ foxknife_2 = """
 for i in range(0, 10):
     print(foxknife_1, end='\r')
     time.sleep(0.5)
-    #os.system("clear")
     print(foxknife_2, end='\r')
     time.sleep(0.5)
