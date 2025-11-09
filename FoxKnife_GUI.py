@@ -44,12 +44,25 @@ foxknife_1 = """
 
 
 """
+
+# LIBRARIES
 import tkinter as tk
 
+
+# MAIN LOOP
 window = tk.Tk()
 greeting = tk.Label(text=foxknife_1,
                     background = "black",
                     foreground = "red")
 greeting.pack()
+
+# Button
+button = tk.Button(
+    text="Click me!",
+    width=25,
+    height=5,
+    bg="blue",
+    fg="yellow",
+)
 
 window.mainloop() 
