@@ -1,6 +1,3 @@
-import tkinter as tk
-
-
 foxknife_1 = """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⢟⢿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -47,10 +44,12 @@ foxknife_1 = """
 
 
 """
-
+import tkinter as tk
 
 window = tk.Tk()
-greeting = tk.Label(text=foxknife_1)
+greeting = tk.Label(text=foxknife_1,
+                    background = "black",
+                    foreground = "red")
 greeting.pack()
 
 window.mainloop() 
